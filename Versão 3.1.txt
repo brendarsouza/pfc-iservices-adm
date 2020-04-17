@@ -1,0 +1,10 @@
+Edição 3.1
+
+Padronizado o design do:
+index;
+loginProfissional;
+loginCliente;
+Cadastros (Pessoa ísica, Juridica, Cliente e Profissional);
+Paginas que relacionam as funções do index ao cadastro.
+
+19-03-17

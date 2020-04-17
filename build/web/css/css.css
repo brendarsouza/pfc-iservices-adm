@@ -1,0 +1,158 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/05/2017, 16:58:50
+    Author     : brenda
+*/
+
+ body {
+                font: 20px Montserrat, sans-serif;
+                line-height: 1.8;
+                color: #222;
+                background-color: #ccccff;
+
+            }
+            a{
+                color: #000;
+            }
+            h5{
+                font-size: 16px;
+                font-style: inherit;
+                color: #000;
+            }
+            p {
+                font-size: 16px;
+                color: #000;
+            }
+
+            .navbar {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border: 0;
+                border-radius: 0;
+                margin-bottom: 0;
+                font-size: 12px;
+                letter-spacing: 5px;
+            }
+            .navbar-nav  li a:hover {
+                color: #1abc9c !important;
+            }
+            h3{
+                text-shadow: 0.1em 0.1em 0.45em #333;
+                font-size: 35px;
+                align-self: center;
+                align-items: center;
+                color: #fff;
+            }
+            .btn {
+                font-weight: 700;
+                height: 36px;
+                -moz-user-select: none;
+                -webkit-user-select: none;
+                user-select: none;
+                cursor: default;
+            }
+
+            /*
+             * Card component
+             */
+            .card {
+                background-color: #000;
+                /* just in case there no content*/
+                padding: 20px 25px 30px;
+                margin: 0 auto 25px;
+                margin-top: 50px;
+                /* shadows and rounded borders */
+                -moz-border-radius: 2px;
+                -webkit-border-radius: 2px;
+                border-radius: 2px;
+                -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+                -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+                box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+            }
+
+            .profile-img-card {
+                width: 96px;
+                height: 96px;
+                margin: 0 auto 10px;
+                display: block;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                border-radius: 50%;
+            }
+            .container{
+                align-items: center;
+            }
+            .container-fluid {
+                padding-top: 70px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 20px;
+                color: #000;
+
+            }
+            p {font-size: 16px;}
+            .margin {margin-bottom: 45px;}
+            .bg-1 {
+                /*background-color: #fff; Green */ 
+                background-image: url("imagens/fundo_41.jpg");/* */
+
+                color: #000;
+
+            }
+            .bg-2 {
+                background-color: #fff; /* branco */
+                color: grey;
+            }
+            .bg-3 {
+                background-image: url("imagens/imagem(18).jpg");
+
+                /* background-color: #fff; white */
+                color: #111;
+            }
+            .bg-4 {
+                background-color: #2f2f2f; /* Black Gray */
+                color: #fff;
+            }
+            input[type=text] {
+                width: 100%;
+                box-sizing: border-box;
+
+                font-size: 16px;
+
+                background-repeat: no-repeat;
+
+                -webkit-transition: width 0.4s ease-in-out;
+                transition: width 0.4s ease-in-out;
+            }
+            * {
+                box-sizing: border-box;
+            }
+            /* Style the "Add" button */
+            .addBtn {
+                width: 25%;
+                background: #d9d9d9;
+                color: #555;
+                float: left;
+                text-align: center;
+                font-size: 11px;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+            .addBtn:hover {
+                background-color: #bbb;
+            }input {
+                border: none;
+                width: 75%;
+                padding: 10px;
+                float: left;
+                font-size: 16px;
+                color: black;
+            }
+            .card-container.card {
+                max-width: 350px;
+                padding: 40px 40px;
+            }

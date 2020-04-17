@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <session-config>
+        <session-timeout>
+            3000
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    <filter>
+        <filter-name>AcessoAdministrador</filter-name>
+        <filter-class>AutorizacaoDeAcesso.AcessoAdministrador</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AcessoAdministrador</filter-name>
+        <url-pattern>/Administrador/*</url-pattern>
+        <url-pattern>/Categoria/*</url-pattern>
+        <url-pattern>/Logs/*</url-pattern>
+        <url-pattern>/Profissao/*</url-pattern>
+        <url-pattern>/perfilAdministrador</url-pattern>
+        <url-pattern>/novaProfissao</url-pattern>
+        <url-pattern>/consultarTodasProfissoes</url-pattern>
+        <url-pattern>/consultarTodasCategorias</url-pattern>
+        <url-pattern>/consultarTodosUsuarios</url-pattern>
+        <url-pattern>/editarAdministrador</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>AcessoLogado</filter-name>
+        <filter-class>AutorizacaoDeAcesso.AcessoLogado</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AcessoLogado</filter-name>
+        <url-pattern>/Administrador/*</url-pattern>
+        <url-pattern>/Categoria/*</url-pattern>
+        <url-pattern>/Logs/*</url-pattern>
+        <url-pattern>/Profissao/*</url-pattern>
+    </filter-mapping>
+</web-app>
